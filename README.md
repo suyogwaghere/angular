@@ -16,7 +16,8 @@ This is Assignment 3: C) Angular Application
  3. Which commands have you used to implement this assignment? 
  4. Explain the code that you have written.
 
-``📝 sdfdfsdgsdfgfsdgsdfgsdfgsdgsdgsdgsdfgsdfgdfgsg``
+``📝 sdfdfsdgsdfgfsdgsdfgsdfgsdgsdgsdgsdfgsdfgdfgsgfghdf
+fghdfhdfhhhdfhdfdfhdfdfhdfhdfh``
 ---
 **NOTE**
 
