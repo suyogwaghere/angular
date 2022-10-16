@@ -16,6 +16,9 @@ This is Assignment 3: C) Angular Application
  3. Which commands have you used to implement this assignment? 
  4. Explain the code that you have written.
 
+---
+**NOTE**
+
 HTML_file:
 <h1> {{title}}</h1>
 <input type="text" #name placeholder=":"enter your name" name="name"> </br>
@@ -43,3 +46,10 @@ this.displaycontact=contact;
 this.displaycontact=contact;
 this.displayemail=email;
   }
+                 
+                 
+
+
+It works with almost all markdown flavours (the below blank line matters).
+
+---
