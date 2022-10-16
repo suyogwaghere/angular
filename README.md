@@ -17,7 +17,7 @@ This is Assignment 3: C) Angular Application
  4. Explain the code that you have written.
 
 ``📝 sdfdfsdgsdfgfsdgsdfgsdfgsdgsdgsdgsdfgsdfgdfgsgfghdf
-fghdfhdfhhhdfhdfdfhdfdfhdfhdfh``
+fghdfhdfhhhdfhdfdfhdfdfhdfhdfh
 ---
 **NOTE**
 
@@ -34,7 +34,7 @@ HTML_file:
 <p> Adress:{{dispalyadress}}</p>
 <p> Contact:{{dispalycontact}}</p>
 <p> Email:{{dispalyemail}}</p>
-
+``
 component.ts File:
 under AppComponent
  dispalyname="";
