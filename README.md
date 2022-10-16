@@ -3,7 +3,7 @@ This is Assignment 3: C) Angular Application
 
 ** Commands To Execute In Terminal:
  1. npm --version     - It is used to check the version of nodejs 
- 2. npm install @angular/cli@latest  - It is used to install angular cli
+ 2. npm install @angular/cli  - It is used to install angular cli
  3. ng new project_name      - It is used to create new angular project
  4. ng serve        - It is used to compile the code (Make sure you are in correct directory before executing this command)
  
@@ -15,44 +15,53 @@ This is Assignment 3: C) Angular Application
  2. What are the features of AngularJS?
  3. Which commands have you used to implement this assignment? 
  4. Explain the code that you have written.
-
-``📝 sdfdfsdgsdfgfsdgsdfgsdfgsdgsdgsdgsdfgsdfgdfgsgfghdf
-fghdfhdfhhhdfhdfdfhdfdfhdfhdfh
----
+<p>
 **NOTE**
-
-HTML_file:
-<h1> {{title}}</h1>
-<input type="text" #name placeholder=":"enter your name" name="name"> </br>
-<input type="text" #adress placeholder=":"enter your adress" name="adress"> </br>
-<input type="text" #contact placeholder=":"enter your contact" name="contact"> </br>
-<input type="text" #email placeholder=":"enter your email" name="email"> </br>
-<input type="password" #password placeholder=":"enter your password" name="password"> </br>
-<button (click)="getValue(name.value,adress.value,contact.value,email.value)" >Register</button>
-<h1>Your Registered Data</h1><br>
+`code here
 <p> Name:{{dispalyname}}</p>
 <p> Adress:{{dispalyadress}}</p>
 <p> Contact:{{dispalycontact}}</p>
 <p> Email:{{dispalyemail}}</p>
-``
+`
+
+
+HTML_file:
+<!-- Toolbar -->
+<h1> {{title}}</h1>
+<input style="margin: 5px 5px;" type="text" #name placeholder="Enter your name" name="name"><br>
+<input style="margin: 5px 5px;" type="text" #adress placeholder="Enter your address" name="address"><br>
+<input style="margin: 5px 5px;" type="text" #contact placeholder="Enter your contact" name="contact"><br>
+<input style="margin: 5px 5px;" type="text" #email placeholder="Enter your email" name="email"> <br>
+<input style="margin: 5px 5px;" type="password" #password placeholder="Enter your password" name="password"><br>
+<button style="margin: 15px;" (click)="getValue(name.value,adress.value,contact.value,email.value)" >Register</button><br>
+<h1>Your Registered Data</h1><br>
+<p> Name:{{displayname}}</p>
+<p> Address:{{displayaddress}}</p>
+<p> Contact:{{dispalycontact}}</p>
+<p> Email:{{displayemail}}</p>
+<router-outlet></router-outlet>
+
 component.ts File:
-under AppComponent
- dispalyname="";
-  dispalyadress="";
+import { Component } from '@angular/core';
+@Component({
+  selector: 'app-root',
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.css']
+})
+export class AppComponent {
+  title = 'Register Here  ';
+  displayname="";
+  displayaddress="";
   dispalycontact="";
-  dispalyemail="";
-  getValue(name:string,adress:string,contact:string,email:string){
-this.displayname=name;
-this.displayadresss=adress;
-this.displaycontact=contact;
-this.displaycontact=contact;
-this.displayemail=email;
+  displayemail="";
+  getValue(name:string,address:string,contact:string,email:string) {
+      this.displayname=name;
+      this.displayaddress=address;
+      this.dispalycontact=contact;
+      this.displayemail=email;
   }
-                 
-                 
+}
+  }</p>
 
 
-It works with almost all markdown flavours (the below blank line matters).
-
----
 
